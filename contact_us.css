@@ -1,0 +1,295 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+  }
+ 
+  
+  nav {
+    display: flex;
+   
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: black;
+    flex-wrap: wrap;
+    z-index: 50;
+  }
+  
+  .company_logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .company_logo img {
+    width: 60px;
+    margin-right: 10px;
+  }
+  
+  .company_logo .company_name {
+    font-size: 30px;
+    color: #149F39;
+    font-family: "Playwrite IN", serif;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .links li {
+    font-size: 18px;
+    font-weight: bold;
+    transition: all 1.2s ease-in-out;
+  }
+  .links a:hover{
+    color: #149F39;
+    transform: scale(1.05);
+  }
+  
+  .links a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .social_media_icons li {
+    list-style: none;
+  }
+  
+  .social_media_icons a {
+    color: aliceblue;
+    font-size: 24px;
+    margin: 0 10px;
+  }
+  .social_media_icons a:hover{
+    color: #149F39;
+    transform: scale(1.05);
+  }
+  
+  #nav_input {
+    display: flex;
+    align-items: center;
+  }
+  
+  #nav_input input {
+    border-radius: 5px;
+    padding: 8px;
+    border: none;
+  }
+
+
+  .contact-container {
+    max-width: 600px;
+    margin: 50px auto;
+    text-align: center;
+    padding: 20px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+    color: #666;
+  }
+  
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+  }
+  
+  label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 0.9rem;
+  }
+  
+  input,
+  textarea {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+    resize: none;
+  }
+  
+  input:focus,
+  textarea:focus {
+    border-color: #007bff;
+  }
+  
+  .submit-btn {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .submit-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  body {
+      margin: 0;
+      font-family: 'Arial', sans-serif;
+      background-color: #fdf6ee;
+    }
+    
+    .footer-section {
+      text-align: center;
+      padding: 4rem 2rem;
+      background-color: #fdf6ee;
+    }
+    
+    .footer-section .content h1 {
+      font-size: 2.5rem;
+      color: #333;
+      margin-bottom: 1rem;
+      font-weight: 600;
+    }
+    
+    .footer-section .content p {
+      font-size: 1rem;
+      color: #666;
+      margin-bottom: 2rem;
+    }
+    
+    .subscription-form {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 0.5rem;
+    }
+    
+    .subscription-form input {
+      width: 300px;
+      padding: 0.8rem;
+      border: 1px solid #ccc;
+      border-radius: 20px;
+      font-size: 1rem;
+      outline: none;
+    }
+    
+    .subscription-form input:focus {
+      border-color: #333;
+    }
+    
+    .subscription-form button {
+      padding: 0.8rem 1.5rem;
+      border: 1px solid #333;
+      border-radius: 20px;
+      background: transparent;
+      font-size: 1rem;
+      font-weight: bold;
+      cursor: pointer;
+      transition: background-color 0.3s ease, color 0.3s ease;
+    }
+    
+    .subscription-form button:hover {
+      background-color: #333;
+      color: #fff;
+    }
+
+    .footer{
+        display: flex;
+        padding: 80px 60px;
+        background-color: rgb(255, 240, 219);
+        margin-top: 150px;
+        justify-content: space-between;
+        align-items: center;
+      
+      }
+      
+      .footer ul{
+        list-style: none;
+      }
+      
+      .footer h3{
+        font-family: Roboto;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 19px;
+        text-align: left;
+      }
+      
+      .brand_name{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+      
+      }
+      
+      .brand_name .name{
+        font-size: 48px;
+        font-weight: 400;
+        color: #149F39;
+        font-family: "Playwrite IN", serif;
+      
+      }
+      
+      
+      
+      .main_link h3{
+        font-size: 25px;
+        margin-bottom: 15px;
+      
+      }
+      
+      .main_link li{
+        font-size: 15px;
+        margin: 5px ;
+      }
+      
+      
+      
+      .support h3{
+        font-size: 25px;
+        margin-bottom: 25px;
+      
+      }
+      
+      .support li{
+        font-size: 15px;
+        margin: 5px ;
+      }
+      
+      .social_media{
+        margin-right: 50px;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+      
+      }
+      
+      .social_media .icons{
+        display: flex;
+        gap: 15px;
+      }
+      
+      .social_media h3{
+        font-size: 25px;
+      }
+      
+      

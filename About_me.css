@@ -1,0 +1,233 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+
+nav {
+    display: flex;
+    /* position: fixed; */
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: black;
+    flex-wrap: wrap;
+    z-index: 50;
+  }
+  
+  .company_logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .company_logo img {
+    width: 60px;
+    margin-right: 10px;
+  }
+  
+  .company_logo .company_name {
+    font-size: 30px;
+    color: #149F39;
+    font-family: "Playwrite IN", serif;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .links li {
+    font-size: 18px;
+    font-weight: bold;
+    transition: all 1.2s ease-in-out;
+  }
+  .links a:hover{
+    color: #149F39;
+    transform: scale(1.05);
+  }
+  
+  .links a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .social_media_icons li {
+    list-style: none;
+  }
+  
+  .social_media_icons a {
+    color: aliceblue;
+    font-size: 24px;
+    margin: 0 10px;
+  }
+  .social_media_icons a:hover{
+    color: #149F39;
+    transform: scale(1.05);
+  }
+  
+  #nav_input {
+    display: flex;
+    align-items: center;
+  }
+  
+  #nav_input input {
+    border-radius: 5px;
+    padding: 8px;
+    border: none;
+  }
+
+
+
+.h2{
+    font-size: 20px;
+    text-align: center;
+
+}
+
+.about-image img {
+    max-width: 400px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.about-section {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.about-content {
+    max-width: 600px;
+    text-align: center;
+    margin-right: 20px;
+}
+
+.about-content p {
+    font-size: 16px;
+    line-height: 1.8;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.about-content h2 {
+    font-size: 20px;
+    margin-top: 20px;
+    color: #444;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.social-icons a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #333;
+    transition: color 0.3s;
+}
+
+.social-icons a:hover {
+    color: #007bff;
+}
+
+.about-image img {
+    /* max-width: 400px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); */
+
+    width: 500px;
+    height: 500px;
+    border-radius: 50% 50%;
+}
+
+
+.footer{
+    display: flex;
+    padding: 80px 60px;
+    background-color: rgb(255, 240, 219);
+    margin-top: 150px;
+    justify-content: space-between;
+    align-items: center;
+  
+  }
+  
+  .footer ul{
+    list-style: none;
+  }
+  
+  .footer h3{
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 19px;
+    text-align: left;
+  }
+  
+  .brand_name{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  
+  }
+  
+  .brand_name .name{
+    font-size: 48px;
+    font-weight: 400;
+    color: #149F39;
+    font-family: "Playwrite IN", serif;
+  
+  }
+  
+
+  
+  .main_link h3{
+    font-size: 25px;
+    margin-bottom: 15px;
+  
+  }
+  
+  .main_link li{
+    font-size: 15px;
+    margin: 5px ;
+  }
+  
+  
+  
+  .support h3{
+    font-size: 25px;
+    margin-bottom: 25px;
+  
+  }
+  
+  .support li{
+    font-size: 15px;
+    margin: 5px ;
+  }
+  
+  .social_media{
+    margin-right: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  
+  }
+  
+  .social_media .icons{
+    display: flex;
+    gap: 15px;
+  }
+  
+  .social_media h3{
+    font-size: 25px;
+  }
+  

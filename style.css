@@ -1,0 +1,406 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+IN:wght@100..400&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  nav {
+    display: flex;
+    position: fixed;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: black;
+    flex-wrap: wrap;
+    z-index: 50;
+  }
+  
+  .company_logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .company_logo img {
+    width: 60px;
+    margin-right: 10px;
+  }
+  
+  .company_logo .company_name {
+    font-size: 30px;
+    color: #149F39;
+    font-family: "Playwrite IN", serif;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .links li {
+    font-size: 18px;
+    font-weight: bold;
+    transition: all 1.2s ease-in-out;
+  }
+  .links a:hover{
+    color: #149F39;
+    transform: scale(1.05);
+  }
+  
+  .links a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .social_media_icons li {
+    list-style: none;
+  }
+  
+  .social_media_icons a {
+    color: aliceblue;
+    font-size: 24px;
+    margin: 0 10px;
+  }
+  .social_media_icons a:hover{
+    color: #149F39;
+    transform: scale(1.05);
+  }
+  
+  #nav_input {
+    display: flex;
+    align-items: center;
+  }
+  
+  #nav_input input {
+    border-radius: 5px;
+    padding: 8px;
+    border: none;
+  }
+  
+  .food_banner{
+    display: flex;
+    min-height:80vh;
+    background-image: url(images/banner.jpg);
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-items: center;
+    justify-content: center;
+    /* margin: 50px; */
+    
+  }
+
+.food_banner a{
+    text-decoration: none;
+    font-size: 70px;
+
+    font-family: "Playwrite IN", serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    color: white;
+    
+  }
+
+
+/* .options div{
+
+  width: 300px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url('yo.jpg');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  font-size: 24px;
+  font-family: Arial, sans-serif;
+
+} */
+
+.brakefast{
+  width: 300px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(images/brakefast.jpg);
+  background-size: cover;
+  background-position: center;
+  color: white;
+  font-size: 24px;
+  font-family: Arial, sans-serif;
+  transition: all 0.2s ease-in-out;
+}
+.brakefast a{
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+}
+.brakefast:hover{
+  transform: scale(1.05);
+  cursor: pointer;
+}
+.DESERT{
+  width: 300px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(images/desert.jpg);
+  background-size: cover;
+  background-position: center;
+  color: white;
+  font-size: 24px;
+  font-family: Arial, sans-serif;
+  transition: all 0.2s ease-in-out;
+}
+
+.DESERT:hover{
+  transform: scale(1.05);
+  cursor: pointer;
+}
+.SMOOTHIES{
+  width: 300px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(images/smoothies.jpeg);
+  background-size: cover;
+  background-position: center;
+  color: white;
+  font-size: 24px;
+  font-family: Arial, sans-serif;
+  transition: all 0.2s ease-in-out;
+}
+
+.SMOOTHIES:hover{
+  transform: scale(1.05);
+  cursor: pointer;
+}
+.CAKES{
+  width: 300px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(images/cake.jpg);
+  background-size: cover;
+  background-position: center;
+  color: white;
+  font-size: 24px;
+  font-family: Arial, sans-serif;
+  transition: all 0.2s ease-in-out;
+}
+.CAKES:hover{
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+
+.options{
+  display: flex;
+  margin: 20px 10px;
+  gap: 10px;
+
+  justify-content: center;
+}
+
+
+
+/* .brakefast{
+    background-image: url(images/brakefast.jpg);
+} */
+
+
+
+  /* menu section */
+
+ #Recipe_section{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* gap: 20px; */
+}
+
+.menu-tag{
+    background-color: #149F39;
+    width: max-content;
+    padding: 7px 12px;
+    margin: 5px 0px 30px;
+
+}
+
+#Recipe_section h3{
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 42.19px;
+    margin-bottom: 20px;
+
+}
+
+.grid-container{
+    /* max-width: 500px; */
+    display: grid;
+    gap: 10px;
+    grid-template-areas: 
+    "I1 I1 I2 I3"
+    "I1 I1 I2 I7"
+    "I4 I5 I6 I7";
+}
+
+.img1{
+    grid-area: I1;
+}
+.img2{
+    grid-area: I2;
+}
+.img3{
+    grid-area: I3;
+}
+.img4{
+    grid-area: I4;
+}
+.img5{
+    grid-area: I5;
+}
+.img6{
+    grid-area: I6;
+}
+.img7{
+    grid-area: I7;
+}
+
+
+
+.grid_img{
+    /* border-radius: 10px; */
+    transition: all 0.2s ease-in-out;
+
+    /* this makes all images to be in the screen resolution means responsive */
+    width: 100%;
+    height: 100%;  
+}
+
+.grid_img:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+
+
+
+
+/* footer section */
+
+.footer{
+  display: flex;
+  padding: 80px 60px;
+  background-color: rgb(255, 240, 219);
+  margin-top: 150px;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.footer ul{
+  list-style: none;
+}
+
+.footer h3{
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 19px;
+  text-align: left;
+}
+
+.brand_name{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+}
+
+.brand_name .name{
+  font-size: 48px;
+  font-weight: 400;
+  color: #149F39;
+  font-family: "Playwrite IN", serif;
+
+}
+
+
+
+.main_link h3{
+  font-size: 25px;
+  margin-bottom: 15px;
+
+}
+
+.main_link li{
+  font-size: 15px;
+  margin: 5px ;
+}
+
+
+
+.support h3{
+  font-size: 25px;
+  margin-bottom: 25px;
+
+}
+
+.support li{
+  font-size: 15px;
+  margin: 5px ;
+}
+
+.social_media{
+  margin-right: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+
+}
+
+.social_media .icons{
+  display: flex;
+  gap: 15px;
+}
+
+.social_media h3{
+  font-size: 25px;
+}
+
+
+
+
+  @media (max-width: 768px) {
+    nav {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .links, .social_media_icons {
+      flex-direction: column;
+      gap: 10px;
+    }
+  
+    .links li, .social_media_icons li {
+      text-align: center;
+    }
+  }
+
+  
